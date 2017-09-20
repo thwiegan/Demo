@@ -1,4 +1,4 @@
-CLASS zcl_helloworld DEFINITION
+CLASS zcl_helloworld1 DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -10,7 +10,7 @@ CLASS zcl_helloworld DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_helloworld IMPLEMENTATION.
+CLASS zcl_helloworld1 IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
     out->write('Hello World!').
